@@ -6,6 +6,7 @@ Uma  aplicação TCP, para  diálogo  cliente/servidor,  para  diálogo  bidirec
 ## Alunas
 
 16/0121817 – Gabriela Medeiros da Silva
+
 16/0122180 – Geovana Ramos Sousa Silva
 
 ## Como funciona? 
