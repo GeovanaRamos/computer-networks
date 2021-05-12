@@ -1,4 +1,4 @@
-# Segundo Projeto de Pesquisa1
+# Segundo Projeto de Pesquisa
 
 Criação de aplicações cliente/servidor utilizando protocolos TCP e UDP. 
 
