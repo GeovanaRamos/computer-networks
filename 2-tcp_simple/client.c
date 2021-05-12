@@ -13,7 +13,7 @@ int main(int argc, char const *argv[]) {
     char buffer[1024] = {0};
 
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {  // CONEXÃO TCP
-        printf("\n Erro na criação do socket \n");
+        printf("\nErro na criação do socket\n");
         return -1;
     }
 
