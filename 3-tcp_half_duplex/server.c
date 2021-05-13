@@ -48,17 +48,17 @@ int main(int argc, char const *argv[]) {
         exit(EXIT_FAILURE);
     }
 
-    // if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,
-    //                &opt, sizeof(opt))) {
-    //     perror("Setsockopt falhou");
-    //     exit(EXIT_FAILURE);
-    // }
-
-    if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR,
+    if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,
                    &opt, sizeof(opt))) {
         perror("Setsockopt falhou");
         exit(EXIT_FAILURE);
     }
+// FOR MACOS
+//     if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR,
+//                    &opt, sizeof(opt))) {
+//         perror("Setsockopt falhou");
+//         exit(EXIT_FAILURE);
+//     }
     
     // Dados do servidor
     address.sin_family = AF_INET;
