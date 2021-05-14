@@ -13,7 +13,7 @@ Uma  aplicação TCP, para  diálogo  cliente/servidor,  para  diálogo  bidirec
 
 Execute primeiro o servidor e depois o cliente. Ambos vão enviar uma mensagem e receber uma mensagem a cada 1 segundo. As aplicações não encerram, a não ser que você interrompa a execução.
 
-Caso vc encerre o servidor, o cliente também será encerrado.
+Caso você encerre o servidor, o cliente também será encerrado.
 
 Caso você encerre o cliente, o servidor permance ativo, e aguarda a conexão de um novo cliente. 
 
